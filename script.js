@@ -6,13 +6,13 @@ start start start start start
  */
 
 // basic output methods
-console.log("Hello Guyz");
-document.write("Hello Again");
+console.log("Hello World!"); // displays on console (use F12 key)
+document.write("Hello Again"); // displays on webpage
 
 // undefined
-let b;
-console.log(b);
-console.log(typeof (b));
+let c;
+console.log(c);
+console.log(typeof (c));
 
 // null
 let x = null; //local
@@ -80,10 +80,55 @@ const sym2 = Symbol(4);
 console.log(sym2);
 
 // false because Symbol(4) generates a unique id , helps for unique identification
-if(sym1 === sym2){
+if (sym1 === sym2) {
     console.log("true");
 }
-else{
+else {
     console.log("false");
 }
 
+// === operator (also checks the data type as well as the content)
+let a = 4;
+let b = '4';
+console.log("== operator")
+if (a == b) {
+    console.log("true;")
+}
+else {
+    console.log("false");
+}
+console.log("=== operator")
+if (a === b) {
+    console.log("true;")
+}
+else {
+    console.log("false");
+}
+
+// ternary operations
+let g = 10;
+let h = 4;
+let f = (g > h) ? g : h;
+console.log(f);
+
+// max of 3 numbers
+let num1 = 10;
+let num2 = 20;
+let num3 = 30;
+var max = (num1 > num2) ? ((num1 > num3) ? num1 : num3) : ((num2 > num3) ? num2 : num3);
+console.log(max);
+
+// for loop
+for (let i = 0; i < 3; i++) {
+    console.log(i);
+}
+
+// sir ka codde
+var count ;
+console.log("<br/>");
+document.write("Starting Loop" + "<br/>");
+for(count = 0 ; count <10;count++){
+    document.write("Current Count : " + count);
+    document.write("<br/>");
+}
+document.write("Loop ended");
