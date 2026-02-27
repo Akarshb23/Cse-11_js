@@ -124,11 +124,53 @@ for (let i = 0; i < 3; i++) {
 }
 
 // sir ka codde
+/*
 var count ;
 console.log("<br/>");
 document.write("Starting Loop" + "<br/>");
-for(count = 0 ; count <10;count++){
+for(count = 0 ; count <4;count++){
     document.write("Current Count : " + count);
     document.write("<br/>");
 }
 document.write("Loop ended");
+*/
+
+// for in loop
+for(let x in person){
+    console.log("person details " + x + " "+ person[x] );
+}
+
+//while
+
+let count1 = 0 ;
+while(count1<4){
+    console.log(count1);
+    count1++;
+}
+
+// if else
+let age = 20;
+if(age > 18)
+    console.log("eligible");
+else
+    console.log("not eligible")  
+
+// switch case
+let day = 3;
+let dayName;
+
+switch(day) {
+  case 1:
+    dayName = "Monday";
+    break;
+  case 2:
+    dayName = "Tuesday";
+    break;
+  case 3:
+    dayName = "Wednesday";
+    break;
+  default:
+    dayName = "Invalid day";
+}
+
+console.log(dayName);
