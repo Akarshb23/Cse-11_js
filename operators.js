@@ -63,6 +63,19 @@ let age = 18;
 let result = age >= 18 ? "Adult" : "Minor";
 console.log("Ternary:", result);
 
+// another example
+let g = 10;
+let h = 4;
+let f = (g > h) ? g : h;
+console.log(f);
+
+// max of 3 numbers
+let num1 = 10;
+let num2 = 20;
+let num3 = 30;
+var max = (num1 > num2) ? ((num1 > num3) ? num1 : num3) : ((num2 > num3) ? num2 : num3);
+console.log(max);
+
 
 //typeof
 console.log("typeof 123:", typeof 123);         // number
