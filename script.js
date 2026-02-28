@@ -49,13 +49,6 @@ num = "sanjeev soni";
 console.log(num);
 console.log(typeof (num));
 
-// function in a variable
-var sayHello = function () {
-    alert('Hello WOrld!');
-    // console.log works too
-
-}
-sayHello;
 
 //array
 var numArray = [1, 2, 3];
@@ -72,20 +65,7 @@ console.log(person.name);
 console.log(person.age);
 console.log(person.degree);
 
-// symbol type
-const sym1 = Symbol(4);
-console.log(sym1);
 
-const sym2 = Symbol(4);
-console.log(sym2);
-
-// false because Symbol(4) generates a unique id , helps for unique identification
-if (sym1 === sym2) {
-    console.log("true");
-}
-else {
-    console.log("false");
-}
 
 // === operator (also checks the data type as well as the content)
 let a = 4;
@@ -174,3 +154,4 @@ switch(day) {
 }
 
 console.log(dayName);
+
