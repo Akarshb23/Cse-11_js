@@ -72,7 +72,7 @@ Used to handle user interactions such as clicks, typing, form submission, etc.
 
 ### 🔹 ES6 Features
 Modern JavaScript features like:
-- Arrow Functions  
+- Arrow Functions (Done <>) 
 - Spread & Rest Operators  
 - Destructuring  
 - Template Literals  
