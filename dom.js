@@ -49,6 +49,7 @@ for(x in result5){
 //
 // getAttribute(attr)
 //
+
 const element = document.getElementById("myH1");
 let text = element.getAttribute("class");
 document.getElementById("demo").innerHTML = text ;
@@ -65,4 +66,13 @@ function myFunction(){
 // 
 // DOM append method
 //
+// create element
 const heading = document.createElement("h2");
+// get body
+const bodytag = document.getElementsByTagName("body");
+// append
+bodytag[0].append(heading);
+heading.innerText = "hello";
+heading.style.backgroundColor = "orange";
+
+function close(){};
