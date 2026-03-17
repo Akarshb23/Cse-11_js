@@ -11,7 +11,7 @@ function fname(last){
     alert("HI AKARSH " + last);
 }
 
-// arrow functions (stored in a variable)
+// arrow functions (stored in a variable) (anonymous function) ( higher order function -> can also be passed as an arguement)
 let mul = (x,y) => {
     console.log(x*y);
 }

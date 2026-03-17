@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Events Basics</title>
+</head>
+
+<body>
+    <h2>Create object from JSON String </h2>
+    <p id="demo"></p>
+
+    <script>
+        var text = '{"employees" : [' + '{"firstname" : "John","lastName" : "Doe"}, ' + '{"firstname" : "Anna","lastName" : "Smith"}, ' + '{"firstname" : "Peter","lastName" : "Jones"}]}';
+        obj = JSON.parse(text);
+        console.log(obj);
+        document.getElementById("demo").innerHTML= obj.employees[1].firstname + " " +  obj.employees[1].lastName; 
+    </script>
+
+
+
+</body>
+
+</html>

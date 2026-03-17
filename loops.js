@@ -23,6 +23,15 @@ var person = {
 for (let x in person) {
     console.log("person details " + x + " " + person[x]);
 }
+// for each bhi krna hai 
+
+
+// for of loop
+var array = [10,20,30];
+
+for (let b of array) {
+    console.log(b);
+}
 
 //while
 let count1 = 0;
