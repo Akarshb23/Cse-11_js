@@ -16,4 +16,7 @@ let mul = (x,y) => {
     console.log(x*y);
 }
 
+// short form
+const add =  (a,b) => a+b ;
+
 mul(10 , 80);
